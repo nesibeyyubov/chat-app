@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1008351595220",
+    "firebase_url": "https://chat-app-c5fa0.firebaseio.com",
+    "project_id": "chat-app-c5fa0",
+    "storage_bucket": "chat-app-c5fa0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1008351595220:android:4654c6057f4bec637b8941",
+        "android_client_info": {
+          "package_name": "com.nesib.chatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1008351595220-4uetgjmn1b15lgnedh0lvf4sbuvl97o8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nesib.chatapp",
+            "certificate_hash": "5735dfb5ce3f8a0ed3a4b65ff894883a75952da8"
+          }
+        },
+        {
+          "client_id": "1008351595220-d0prbvhiqrqnu6igtfo4h9l3ph1sqvil.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0FvVQQVWcnoHulrKXHzUWr8fT5drWuZw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1008351595220-d0prbvhiqrqnu6igtfo4h9l3ph1sqvil.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

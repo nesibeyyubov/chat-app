@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:textColor="@color/colorPrimaryText"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:text="Welcome Back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:textColor="@color/colorSecondaryText"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"
+        android:text="Sign in to continue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/emailInput"
+        android:hint="Email"
+        style="@style/AuthInput"
+        />
+    <EditText
+        android:inputType="textPassword"
+        android:id="@+id/passwordInput"
+        android:hint="Password"
+        style="@style/AuthInput"
+        />
+    <TextView
+        android:id="@+id/loginError"
+        android:layout_gravity="start"
+        android:visibility="gone"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginTop="5dp"
+        android:textColor="@android:color/holo_red_light"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+
+        android:id="@+id/loginButton"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginHorizontal="40dp"
+        android:background="@drawable/ripple_bg"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        >
+        <TextView
+            android:id="@+id/authButtonText"
+            android:includeFontPadding="false"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:textSize="16sp"
+            android:text="Login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <ProgressBar
+            android:visibility="gone"
+            android:id="@+id/authProgressBar"
+            android:indeterminate="true"
+            android:indeterminateTint="@android:color/white"
+            android:layout_width="25dp"
+            android:layout_height="25dp"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="end"
+        android:layout_marginHorizontal="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Don't have an account? "
+            android:layout_width="wrap_content"
+            android:textColor="@color/colorPrimaryText"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/registerLink"
+            android:textColor="@color/colorAccent"
+            android:text="create a new account"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+
+</LinearLayout>
