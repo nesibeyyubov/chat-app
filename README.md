@@ -1,6 +1,6 @@
 A chat app like Whatsapp
 
-:exclamation:<p><strong>You can download full APK from </strong><a href="https://www.mediafire.com/file/o7hv0guf12e41t6/chat-app.apk/file">here</a></p>
+<p>:exclamation:<strong>You can download full APK from </strong><a href="https://www.mediafire.com/file/o7hv0guf12e41t6/chat-app.apk/file">here</a></p>
 
 Used Firebase Firestore as backend
 
